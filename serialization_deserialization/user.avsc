@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "User",
+  "namespace": "design_hld.serialization",
+  "fields": [
+    {"name": "id", "type": "int"},
+    {"name": "name", "type": "string"},
+    {"name": "email", "type": ["null", "string"], "default": null}
+  ]
+}
